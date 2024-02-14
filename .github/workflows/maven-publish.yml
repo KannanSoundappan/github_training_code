@@ -5,11 +5,11 @@ name: Maven Package
 
 on: 
   push:
-    branches:
-      -  'feature/**'
-      -  'master'
     branches-ignore:
       -  'release/**'
+ #   branches:
+ #     -  'feature/**'
+ #     -  'master'
 
 jobs:
   build:
